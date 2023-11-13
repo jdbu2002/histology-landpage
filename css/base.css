@@ -1,0 +1,39 @@
+.listaTarjetas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.listaTarjetas li {
+  list-style: none;
+}
+
+.tarjeta {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ccc;
+  width: 320px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.tarjeta:hover {
+  background-color: #a1a1a1;
+}
+
+.tarjeta .footer {
+  padding: 10px 20px 15px 20px;
+  color: black;
+  font-size: 14pt;
+}
+
+.tarjeta img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+}
